@@ -129,6 +129,5 @@ Test quality [10]:
 Code coverage [10]:
 Design quality [20]:
 Code quality [10]:
-
 Response to questions [10]: -1
 2. Need to break details into smaller paragraphs and include more principles.
