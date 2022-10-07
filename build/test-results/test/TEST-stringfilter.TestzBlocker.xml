@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="stringfilter.TestzBlocker" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-10-07T07:46:06" hostname="J-LAP" time="0.006">
+  <properties/>
+  <testcase name="zBlockerConversion()" classname="stringfilter.TestzBlocker" time="0.006"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

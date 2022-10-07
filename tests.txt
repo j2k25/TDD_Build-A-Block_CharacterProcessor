@@ -1,0 +1,34 @@
+TestProcessor
+
+Xcanary
+Xconvert abc to uppercase
+Xconvert ABC to uppercase
+Xconvert aBc to uppercase
+Xconvert a1c to uppercase
+Xconvert a&c to uppercase
+Xconvert "" to uppercase
+
+Xconvert ABC to lowercase
+Xconvert abc to lowercase
+Xconvert aBC to lowercase
+Xconvert ABC to lowercase
+Xconvert a1C to lowercase
+Xconvert A&a to lowercase
+
+Xmultiply a to aa
+Xmultiply aa to aaaa
+Xmultiply B1c to B1cB1c
+
+Xconvert ZZz12kdf with zBlocker
+Xconvert ZZz12kdf with ZBlocker
+Xconvert ZZz12kdf with kBlocker
+
+XProcessor with no blocks
+XProcessor with uppercase block
+XProcessor with lowercase block
+XProcessor with two blocks
+XProcessor with three blocks
+
+Xconvert MMz12kdf with MtoPChanger
+Xconvert mmEdrMP with MtoPChanger
+Xconvert 00000 with MtoPChanger

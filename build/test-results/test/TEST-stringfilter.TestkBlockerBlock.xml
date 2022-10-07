@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="stringfilter.TestkBlockerBlock" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-10-07T07:46:05" hostname="J-LAP" time="0.1">
+  <properties/>
+  <testcase name="kBlockerConversion()" classname="stringfilter.TestkBlockerBlock" time="0.1"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

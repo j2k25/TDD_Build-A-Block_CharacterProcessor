@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>MultiplyBlock.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">assign3</a> &gt; <a href="index.source.html" class="el_package">stringfilter.block</a> &gt; <span class="el_source">MultiplyBlock.java</span></div><h1>MultiplyBlock.java</h1><pre class="source lang-java linenums">package stringfilter.block;
+
+import static java.util.stream.Collectors.joining;
+
+<span class="fc" id="L5">public class MultiplyBlock implements Block {</span>
+	public String convertText(String text) {
+<span class="fc" id="L7">		return text.chars()</span>
+<span class="fc" id="L8">			.mapToObj(Character::toString)</span>
+<span class="fc" id="L9">			.map(ch -&gt; ch + ch)</span>
+<span class="fc" id="L10">			.collect(joining(&quot;&quot;));</span>
+	}
+
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.7.202105040129</span></div></body></html>
